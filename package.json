@@ -1,0 +1,26 @@
+{
+  "name": "machinepack-jsonschema",
+  "version": "0.1.0",
+  "description": "Work with json schema.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Json Schema",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^3.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "Json Schema",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
