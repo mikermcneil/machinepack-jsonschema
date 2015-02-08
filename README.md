@@ -5,7 +5,7 @@
 
 ### [Docs](http://node-machine.org/machinepack-jsonschema) &nbsp; [Browse other machines](http://node-machine.org/machinepacks) &nbsp;  [FAQ](http://node-machine.org/implementing/FAQ)  &nbsp;  [Newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine)
 
-Work with json schema.
+Node.js utility for working with the JSON-schema spec.
 
 
 ## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-jsonschema.svg)](http://badge.fury.io/js/machinepack-jsonschema) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-jsonschema.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-jsonschema)
@@ -16,7 +16,7 @@ $ npm install machinepack-jsonschema
 
 ## Usage
 
-For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-jsonschema" title="Work with json schema. (for node.js)">http://node-machine.org/machinepack-jsonschema</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
+For the latest usage documentation, version information, and test status of this module, see <a href="http://node-machine.org/machinepack-jsonschema" title="Node.js utility for working with the JSON-schema spec. (for node.js)">http://node-machine.org/machinepack-jsonschema</a>.  The generated manpages for each machine contain a complete reference of all expected inputs, possible exit states, and example return values.  If you need more help, or find a bug, jump into [Gitter](https://gitter.im/node-machine/general) or leave a message in the project [newsgroup](https://groups.google.com/forum/?hl=en#!forum/node-machine).
 
 ## About  &nbsp; [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/node-machine/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
