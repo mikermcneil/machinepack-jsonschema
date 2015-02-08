@@ -61,6 +61,29 @@
         }
       },
       "outcome": "success"
+    },
+    {
+      "using": {
+        "data": {
+          "lines": ["800 Widgehedge St.","Suite 458"],
+          "zip": 78731,
+          "city": "Austin",
+          "country": "United States"
+        },
+        "schema": {
+          "type": "object",
+          "properties": {
+            "lines": {
+              "type": "array",
+              "items": {"type": "string"}
+            },
+            "zip": {"type": "string"},
+            "city": {"type": "string"},
+            "country": {"type": "string", "required": true}
+          }
+        }
+      },
+      "outcome": "invalid"
     }
   ]
 }
