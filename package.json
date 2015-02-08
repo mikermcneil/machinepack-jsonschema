@@ -25,6 +25,7 @@
     "machines": [
       "validate"
     ],
+    "moreInfoUrl": "http://spacetelescope.github.io/understanding-json-schema/UnderstandingJSONSchema.pdf",
     "testsUrl": "https://travis-ci.org/mikermcneil/machinepack-jsonschema"
   },
   "repository": {
