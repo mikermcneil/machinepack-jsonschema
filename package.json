@@ -22,7 +22,9 @@
   "machinepack": {
     "friendlyName": "Json Schema",
     "machineDir": "machines/",
-    "machines": ["validate"],
+    "machines": [
+      "validate"
+    ],
     "testsUrl": "https://travis-ci.org/mikermcneil/machinepack-jsonschema"
   },
   "repository": {
