@@ -2,8 +2,41 @@
   "machine": "validate",
   "expectations": [
     {
-      "todo": true,
-      "using": {},
+      "using": {
+        "data": "hi",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "data": 23523,
+        "schema": {
+          "type": "number"
+        }
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "data": true,
+        "schema": {
+          "type": "boolean"
+        }
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "data": {
+          "foo": "bar"
+        },
+        "schema": {
+          "type": "object"
+        }
+      },
       "outcome": "success"
     }
   ]

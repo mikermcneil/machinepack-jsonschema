@@ -39,6 +39,15 @@ module.exports = {
       description: 'Unexpected error occurred.'
     },
 
+    invalid: {
+      description: 'Provided data and schema are not compatible.',
+      example: [{
+        property: 'instance',
+        schema: { type: 'string' },
+        stack: 'instance is not of a type(s) string'
+      }]
+    },
+
     success: {
       description: 'Done.'
     }
@@ -49,8 +58,23 @@ module.exports = {
   fn: function(inputs, exits) {
     var BaseValidator = require('jsonschema').Validator;
     var validator = new BaseValidator();
+
     var result = validator.validate(inputs.data, inputs.schema);
-    return exits.success(result);
+    // => {
+    //   instance: 55,
+    //   schema: {
+    //     type: 'number'
+    //   },
+    //   propertyPath: 'instance',
+    //   errors: [],
+    //   throwError: undefined
+    // }
+
+    if (result.errors.length > 0) {
+      return exits.invalid(result.errors);
+    }
+
+    return exits.success();
   },
 
 };
