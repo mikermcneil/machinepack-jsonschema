@@ -1,6 +1,6 @@
 {
   "name": "machinepack-jsonschema",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node.js utility for working with the JSON-schema spec.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
