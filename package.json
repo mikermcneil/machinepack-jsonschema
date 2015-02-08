@@ -13,7 +13,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "machine": "^3.0.0"
+    "machine": "^3.0.0",
+    "jsonschema": "^1.0.0"
   },
   "devDependencies": {
     "test-machinepack-mocha": "^0.2.2"
@@ -21,7 +22,7 @@
   "machinepack": {
     "friendlyName": "Json Schema",
     "machineDir": "machines/",
-    "machines": [],
+    "machines": ["validate"],
     "testsUrl": "https://travis-ci.org/mikermcneil/machinepack-jsonschema"
   },
   "repository": {
