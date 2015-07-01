@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "machine": "^4.0.0",
-    "jsonschema": "^1.0.0"
+    "jsonschema": "^1.0.0",
+    "machine": "^10.3.1"
   },
   "devDependencies": {
-    "test-machinepack-mocha": "^0.2.2"
+    "test-machinepack-mocha": "^2.1.1"
   },
   "machinepack": {
     "friendlyName": "Json Schema",
